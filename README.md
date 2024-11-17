@@ -9,22 +9,23 @@
   
   The program will be in separate files: Project-two.cpp/Header.h/Source.cpp
 
-
-
-
-
-
-
-
+  *Video Explanation of the code*
+  
 
 1- These are the function that will be used: 
 ![Screenshot 2024-11-16 183020](https://github.com/user-attachments/assets/3d9b3dff-06f0-4fcd-b2ef-47b1a710444f)
+
 2- Variable will be used for Passenger and Flights: 
+
 ![Screenshot 2024-11-16 183710](https://github.com/user-attachments/assets/df4d960a-f1fb-48b1-98f0-5c499efd4fe9)
+
 3- The details that will be printed: 
+
 ![Screenshot 2024-11-16 183853](https://github.com/user-attachments/assets/c7fa9b1c-b10d-4d59-b100-856ba8d6f166)
 
-*Author of the Program* 
-   Name: Sandratana Andrianjohary
-   Class: CIS 25 Fall 2024
+*Author of the Program* :
+
+Name: Sandratana Andrianjohary
+
+Class: CIS 25 Fall 2024
 
