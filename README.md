@@ -22,10 +22,6 @@
 
 ![Screenshot 2024-11-16 183710](https://github.com/user-attachments/assets/df4d960a-f1fb-48b1-98f0-5c499efd4fe9)
 
-3- The details that will be printed: 
-
-![Screenshot 2024-11-16 183853](https://github.com/user-attachments/assets/c7fa9b1c-b10d-4d59-b100-856ba8d6f166)
-
 *Author of the Program* :
 
 Name: Sandratana Andrianjohary
