@@ -7,16 +7,16 @@ using namespace std;
 using namespace FlightBooking;
 
 int main() {
-    const int FLIGHT_COUNT = 3;
+    const int FLIGHT_COUNT = 3; //Number of flight available
 
-    // Array to manage flight schedules
+    // Array to manage flight schedules / initialized with fligh details
     Flight flights[FLIGHT_COUNT] = {
         {1, "New York", "9:00 AM", 5},
         {2, "Los Angeles", "2:00 PM", 3},
         {3, "San Francisco", "3:00 PM", 10}
     };
 
-    Passenger* passenger = nullptr;
+    Passenger* passenger = nullptr; //// Pointer to dynamically manage passenger details
     int choice = 0;
 
     while (choice != 4) {
@@ -29,7 +29,7 @@ int main() {
         cin >> choice;
 
         if (choice == 1) {
-            displayFlights(flights, FLIGHT_COUNT);
+            displayFlights(flights, FLIGHT_COUNT); //call function to dipsplay flight details
         }
         else if (choice == 2) {
             string destination;
@@ -37,16 +37,16 @@ int main() {
             cin.ignore();
             getline(cin, destination);
 
-            int flightChoice = searchFlight(flights, FLIGHT_COUNT, destination);
+            int flightChoice = searchFlight(flights, FLIGHT_COUNT, destination); //Searching flight using destination name
             if (flightChoice != -1) {
-                passenger = bookFlight(flights[flightChoice]);
+                passenger = bookFlight(flights[flightChoice]); //Book flight if available
             }
             else {
                 cout << "No flights available for the entered destination." << endl;
             }
         }
         else if (choice == 3) {
-            displayPassengerDetails(passenger);
+            displayPassengerDetails(passenger); //call function to display booked passenger details 
         }
         else if (choice == 4) {
             cout << "Exiting the system." << endl;
